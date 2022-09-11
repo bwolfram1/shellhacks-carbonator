@@ -10,8 +10,8 @@ sensor.set_framesize(sensor.QVGA)      # Set frame size to QVGA (320x240)
 sensor.set_windowing((240, 240))       # Set 240x240 window.
 sensor.skip_frames(time=2000)          # Let the camera adjust.
 
-SSID='BrandonsWifi' # Network SSID
-KEY='pchs1987'  # Network key
+SSID='' # Network SSID
+KEY=''  # Network key
 
 url = "https://io.adafruit.com/bwolfram1/feeds/weedslmao"
 port = 0
